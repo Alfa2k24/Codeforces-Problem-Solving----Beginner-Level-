@@ -17,12 +17,10 @@ int main()
     {
         for (int y = 0; y <= K; y++)
         {
-            for (int z = 0; z <= K; z++)
+            int z = S - x - y;
+            if (z >= 0 && z <= K)
             {
-                if (x + y + z == S)
-                {
-                    count++;
-                }
+                count++;
             }
         }
     }
