@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main()
 {
-    int x, y;
-    scanf("%d %d", &x, &y);
+    long long int x, y;
+    scanf("%lld %lld", &x, &y);
 
     long long int sum = x + y;
     long long int mul = x * y;
