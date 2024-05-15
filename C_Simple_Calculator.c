@@ -7,9 +7,9 @@ int main()
     long long int sum = x + y;
     long long int mul = x * y;
     long long int sub = x - y;
-    printf("%d + %d = %lld\n", x, y, sum);
-    printf("%d * %d = %lld\n", x, y, mul);
-    printf("%d - %d = %lld\n", x, y, sub);
+    printf("%lld + %lld = %lld\n", x, y, sum);
+    printf("%lld * %lld = %lld\n", x, y, mul);
+    printf("%lld - %lld = %lld\n", x, y, sub);
 
     return 0;
 }
